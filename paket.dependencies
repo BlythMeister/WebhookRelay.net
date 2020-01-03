@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+framework: net461
+redirects: on
+strategy: min
+
+nuget Microsoft.Azure.ServiceBus 3.0.2
+nuget Microsoft.Azure.WebJobs.ServiceBus 2.2
+nuget Microsoft.NET.Sdk.Functions 1.0.13
+nuget TopShelf.Log4Net
+
